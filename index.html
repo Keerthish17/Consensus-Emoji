@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #face{
+        
+            margin-left: 40%;
+            background-color:lightpink;
+            border: 2px solid;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            border-color:violet;
+            border-radius: 50%;
+            margin-top: 100px;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        #eyes{
+
+            position: relative;
+            top: -40px;
+            display: flex;
+            padding-bottom: 35px;
+            margin-left: -10px;
+
+        }
+        #eye1{
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color:black;
+            margin: 0px 14px;
+            border-radius: 50%;
+            margin-left: 15px;
+            padding: 3px;
+            
+            
+        }
+        #eye2{
+            margin-right: 5px;
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color:black;
+            margin: 0px 14px;
+           padding: 3px;
+            border-radius: 100%;
+            
+        }
+        #eyeball1{
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color:white;
+            margin: 0px 14px;
+            margin-top: 10px;
+            margin-left: 16px;
+            border-radius: 100%;
+           
+        }
+        #eyeball2{
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color:white;
+            margin: 0px 14px;
+            margin-top: 10px;
+            margin-left: 14px;
+    
+            border-radius: 100%;
+        }
+        #nose{
+            position: absolute;
+            width: 110px;
+            height: 69px;
+            display: block;
+            background-color:red;
+            margin-top: 78px;
+           border-radius: 200px;
+           
+            
+        }
+        #nose1{
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color:black;
+            
+            margin-top: 18px;
+            margin-left: 14px;
+            border-radius: 100%;
+        }
+        #nose2{
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color:black;
+           
+            margin-left: 69px;
+            margin-top: -24px;
+            
+            
+            border-radius: 100%;
+        }
+        #ear1{
+            
+            position: absolute;
+            background-color:lightpink;
+            
+            top: -1px;
+            margin-left: -150px;
+            width: 100px;
+            height: 84px;
+            margin-top: 80px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+            overflow:hidden;
+
+        }
+        #ear2{
+            
+            position: absolute;
+            background-color:lightpink;
+            
+            top: -1px;
+            margin-left: 150px;
+            width: 100px;
+            height: 87px;
+            margin-top: 80px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+        }
+    </style>
+</head>
+<body>
+     
+    <div id="face">
+        <div id="ear1"></div><div id="ear2"></div>
+        <div id="eyes">
+            <div id="eyebrow1"></div>
+        <div id="eye1"> <div id="eyeball1"></div>  </div>
+        <div id="eyebrow2"></div>
+        <div id="eye2"> <div id="eyeball2"> </div>  </div>
+        </div>
+<div id="nose">
+            <div id="nose1"></div><div id="nose2"></div>
+        </div>
+    </div>
+</body>
+</html>
